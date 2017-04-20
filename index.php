@@ -37,6 +37,10 @@
   <?php include_once 'pages/contact.php';?>
 </section>
 
+<footer>
+  <?php include_once 'pages/footer.php';?>
+</footer>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/bootstrap.min.js"></script>
