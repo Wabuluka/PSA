@@ -1,0 +1,123 @@
+@import url(bootstrap.css);
+/* line 13, custom.scss */
+body p {
+  color: #fff; }
+
+/* line 18, custom.scss */
+.navbar {
+  background-color: #d21100; }
+
+/* line 21, custom.scss */
+#homeSection {
+  background-color: #222;
+  min-height: 600px;
+  margin-top: -20px; }
+  /* line 26, custom.scss */
+  #homeSection h1 {
+    color: #E1A90E; }
+  /* line 30, custom.scss */
+  #homeSection h4 {
+    color: #E1A90E; }
+  /* line 33, custom.scss */
+  #homeSection .home-logo {
+    height: 150px;
+    width: 250px; }
+  /* line 38, custom.scss */
+  #homeSection blockquote {
+    color: #fff; }
+  /* line 42, custom.scss */
+  #homeSection .quotes {
+    color: #d21100; }
+  /* line 46, custom.scss */
+  #homeSection .lead {
+    padding-left: 70px; }
+  /* line 50, custom.scss */
+  #homeSection .media-body .media-heading {
+    color: #E1A90E;
+    font-weight: bold; }
+  /* line 54, custom.scss */
+  #homeSection .media-body h6 {
+    color: #fff;
+    padding-top: -10px; }
+  /* line 59, custom.scss */
+  #homeSection .header-description {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em; }
+  /* line 64, custom.scss */
+  #homeSection .header-description-paragraph {
+    font-size: 1.2em; }
+
+/* line 69, custom.scss */
+#headerSection {
+  height: 620px;
+  background: url(../img/banner-bg.jpg) no-repeat center center;
+  background-size: cover; }
+
+/* line 75, custom.scss */
+#aboutSection {
+  height: 620px; }
+  /* line 77, custom.scss */
+  #aboutSection h1 {
+    text-align: center; }
+  /* line 81, custom.scss */
+  #aboutSection .about-top {
+    color: #d21100; }
+  /* line 84, custom.scss */
+  #aboutSection .about-h1 {
+    font-size: 1.5em; }
+  /* line 87, custom.scss */
+  #aboutSection .about-h1:hover {
+    color: #d21100; }
+  /* line 90, custom.scss */
+  #aboutSection p {
+    text-align: center;
+    color: #000; }
+  /* line 94, custom.scss */
+  #aboutSection .icon-about {
+    background-color: #ccc; }
+  /* line 97, custom.scss */
+  #aboutSection .icon-about:hover {
+    color: #fff;
+    background-color: #000; }
+  /* line 101, custom.scss */
+  #aboutSection .spanning-div-for-about {
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover; }
+  /* line 105, custom.scss */
+  #aboutSection .first-section-h1 {
+    font-size: 1.2em;
+    font-weight: bold; }
+  /* line 109, custom.scss */
+  #aboutSection .thumbnail-custom-homeSection-two {
+    opacity: 0.7;
+    margin-top: 50px; }
+  /* line 114, custom.scss */
+  #aboutSection .first-section:hover {
+    opacity: 0.5;
+    background: #d21100; }
+    /* line 117, custom.scss */
+    #aboutSection .first-section:hover h1 {
+      color: #fff; }
+    /* line 120, custom.scss */
+    #aboutSection .first-section:hover p {
+      color: #fff; }
+    /* line 123, custom.scss */
+    #aboutSection .first-section:hover .icon-about {
+      background-color: #E1A90E; }
+
+/* line 128, custom.scss */
+#contactSection {
+  height: 620px;
+  background-color: #222;
+  opacity: 0.8; }
+  /* line 132, custom.scss */
+  #contactSection h1 {
+    color: #d21100;
+    text-align: center; }
+  /* line 136, custom.scss */
+  #contactSection p {
+    text-align: center;
+    color: #000; }
+
+/*# sourceMappingURL=custom.css.map */

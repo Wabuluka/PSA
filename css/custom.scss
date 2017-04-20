@@ -1,0 +1,143 @@
+//import for bootstrap
+@import "bootstrap.css";
+
+//custom edits in css.
+//special color variables
+$primaryColorOne: #fff;
+$primaryColorTwo: #000;
+$primaryColorThree: #222;
+$primaryColorFour: #E1A90E;
+$primaryColorFive: #d21100;
+
+body{
+  p{
+    color: $primaryColorOne;
+  }
+}
+//navigation
+.navbar{
+  background-color: $primaryColorFive;
+}
+#homeSection{
+  background-color: $primaryColorThree;
+  min-height: 600px;
+  margin-top: -20px;
+  //heading 1
+  h1{
+    color: $primaryColorFour;
+  }
+  //heading 3
+  h4{
+    color: $primaryColorFour;
+  }
+  .home-logo{
+    height: 150px;
+    width: 250px;
+  }
+  //quoteblocks
+  blockquote{
+    color: $primaryColorOne;
+  }
+  //quotes from font awesome
+  .quotes{
+    color: $primaryColorFive;
+  }
+  //mission statement actual quote paddings
+  .lead{
+    padding-left: 70px;
+  }
+  .media-body{
+    .media-heading{
+      color: $primaryColorFour;
+      font-weight: bold;
+    }
+    h6{
+      color: $primaryColorOne;
+      padding-top: -10px;
+    }
+  }
+  .header-description{
+      color: $primaryColorOne;
+      font-weight: bold;
+      font-size: 1.5em;
+  }
+  .header-description-paragraph{
+    font-size: 1.2em;
+  }
+}
+//header page
+#headerSection{
+    height: 620px;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+//about us page
+#aboutSection{
+  height: 620px;
+  h1{
+
+    text-align: center;
+  }
+  .about-top{
+    color: $primaryColorFive;
+  }
+  .about-h1{
+  font-size: 1.5em;
+  }
+  .about-h1:hover{
+  color: $primaryColorFive;
+  }
+  p{
+    text-align: center;
+    color: $primaryColorTwo;
+  }
+  .icon-about{
+    background-color: #ccc;
+  }
+  .icon-about:hover{
+    color: $primaryColorOne;
+    background-color: $primaryColorTwo;
+  }
+  .spanning-div-for-about{
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  .first-section-h1{
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .thumbnail-custom-homeSection-two{
+    opacity: 0.7;
+  	margin-top: 50px;
+  }
+  //hover effect on the icons in the div about nothing
+  .first-section:hover{
+    opacity: 0.5;
+    background: $primaryColorFive;
+    h1{
+      color: $primaryColorOne;
+    }
+    p{
+      color: $primaryColorOne;
+    }
+    .icon-about{
+      background-color: $primaryColorFour;
+    }
+  }
+}
+#contactSection{
+  height: 620px;
+  background-color: $primaryColorThree;
+  opacity: 0.8;
+  h1{
+    color: $primaryColorFive;
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    color: $primaryColorTwo;
+  }
+  .spanning-div-for-contact{
+
+  }
+}
