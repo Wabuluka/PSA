@@ -120,4 +120,9 @@ body p {
     text-align: center;
     color: #000; }
 
+/* line 144, custom.scss */
+footer {
+  height: 200px;
+  background: #E1A90E; }
+
 /*# sourceMappingURL=custom.css.map */
