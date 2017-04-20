@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div class=".col-xs-12 text-center">
-      <p class=""><img class="home-logo" src="img/brand.png" alt="Logo of PSA"></p>
+      <p class=""><img class="home-logo" src="img/brand_bw.png" alt="Logo of PSA"></p>
       <h4 class="">WELCOME TO</h4>
       <h1 class="">PEMBA SPORTS AFRICA</h1>
     </div>
