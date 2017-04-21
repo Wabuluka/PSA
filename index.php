@@ -37,9 +37,9 @@
   <?php include_once 'pages/contact.php';?>
 </section>
 
-<footer>
-  <?php include_once 'pages/footer.php';?>
-</footer>
+
+
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -50,7 +50,5 @@
     <script src="js/custom.js"></script>
     <!--custom js-->
     <script src = "js/jquery/jquery.waypoints.min.js">
-
-
   </body>
 </html>
