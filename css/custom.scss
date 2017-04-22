@@ -1,46 +1,54 @@
-//import for bootstrap
-@import "bootstrap.css";
+//variables to be used through out the website
+$colorOne : #fff;//white
+$colorTwo : #000;//black
+$colorThree : #222;//black calm
+$colorFour: #E1A90E; //yellowish
+$colorFive: #d21100;
 
-//custom edits in css.
-//special color variables
-$primaryColorOne: #fff;
-$primaryColorTwo: #000;
-$primaryColorThree: #222;
-$primaryColorFour: #E1A90E;
-$primaryColorFive: #d21100;
-
+//for the entire body
 body{
   p{
-    color: $primaryColorOne;
+    color: $colorOne;
   }
 }
+//header section
+header{
+  height: 570px;
+  background: url(../img/banner-bg.jpg) no-repeat center center;
+  background-size: cover;
+  p{
+    color: $colorOne;
+  }
+}
+
 //navigation
 .navbar{
-  background-color: $primaryColorFive;
+  background: $colorFive;
 }
+//home section
 #homeSection{
-  background-color: $primaryColorThree;
+  background-color: $colorThree;
   min-height: 600px;
   margin-top: -20px;
   //heading 1
   h1{
-    color: $primaryColorFour;
+    color: $colorFour;
   }
   //heading 3
   h4{
-    color: $primaryColorFour;
+    color: $colorFour;
   }
   .home-logo{
-    height: 150px;
-    width: 250px;
+    height: 100px;
+    width: 150px;
   }
   //quoteblocks
   blockquote{
-    color: $primaryColorOne;
+    color: $colorOne;
   }
   //quotes from font awesome
   .quotes{
-    color: $primaryColorFive;
+    color: $colorFive;
   }
   //mission statement actual quote paddings
   .lead{
@@ -48,16 +56,16 @@ body{
   }
   .media-body{
     .media-heading{
-      color: $primaryColorFour;
+      color: $colorFour;
       font-weight: bold;
     }
     h6{
-      color: $primaryColorOne;
+      color: $colorOne;
       padding-top: -10px;
     }
   }
   .header-description{
-      color: $primaryColorOne;
+      color: $colorOne;
       font-weight: bold;
       font-size: 1.5em;
   }
@@ -65,42 +73,39 @@ body{
     font-size: 1.2em;
   }
 }
-//header page
-#headerSection{
-    height: 620px;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
-    background-size: cover;
-}
+//aboutSection
 //about us page
 #aboutSection{
   height: 620px;
+  margin-bottom: 10px;
   h1{
 
     text-align: center;
   }
   .about-top{
-    color: $primaryColorFive;
+    color: $colorFive;
   }
   .about-h1{
   font-size: 1.5em;
   }
   .about-h1:hover{
-  color: $primaryColorFive;
+  color: $colorFive;
   }
   p{
     text-align: center;
-    color: $primaryColorTwo;
+    color: $colorTwo;
   }
   .icon-about{
     background-color: #ccc;
   }
   .icon-about:hover{
-    color: $primaryColorOne;
-    background-color: $primaryColorTwo;
+    color: $colorOne;
+    background-color: $colorTwo;
   }
   .spanning-div-for-about{
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
+    margin-bottom: 20px;
   }
   .first-section-h1{
     font-size: 1.2em;
@@ -113,31 +118,28 @@ body{
   //hover effect on the icons in the div about nothing
   .first-section:hover{
     opacity: 0.5;
-    background: $primaryColorFive;
+    background: $colorFive;
     h1{
-      color: $primaryColorOne;
+      color: $colorOne;
     }
     p{
-      color: $primaryColorOne;
+      color: $colorOne;
     }
     .icon-about{
-      background-color: $primaryColorFour;
+      background-color: $colorFour;
     }
   }
 }
-#contactSection{
-  height: 620px;
-  background-color: $primaryColorThree;
-  opacity: 0.8;
-  h1{
-    color: $primaryColorFive;
-    text-align: center;
-  }
-  p{
-    text-align: center;
-    color: $primaryColorTwo;
-  }
-  .spanning-div-for-contact{
+//footer
+#footerSection{
+  clear:both;
+  height: 200px;
+  background: $colorThree;
 
+
+  img{
+    margin-top: 5px;
+    height: 100px;
+    width: 100px;
   }
 }
